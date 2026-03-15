@@ -23,3 +23,6 @@ class PalindromeChecker {
         } else {
             System.out.println("It is NOT a palindrome.");
         }
+    }
+}
+
