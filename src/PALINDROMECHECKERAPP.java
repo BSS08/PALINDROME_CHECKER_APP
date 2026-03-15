@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class PalindromeChecker {
 
-    public static boolean isPalindrome(String str) {
+    static boolean isPalindrome(String str) {
 
         str = str.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
 
@@ -23,3 +23,5 @@ class PalindromeChecker {
         } else {
             System.out.println("It is NOT a palindrome.");
         }
+    }
+}
